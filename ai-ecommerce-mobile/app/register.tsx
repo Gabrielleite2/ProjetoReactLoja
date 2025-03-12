@@ -6,7 +6,7 @@ import { useRouter } from 'expo-router'
 const register = () => {
     const router = useRouter()
   return (
-    <LinearGradient colors={['#0EDFBD', '#C60000']}
+    <LinearGradient colors={['#D9D9D9', '#2B2B2B']}
         style={styles.container}
         start={{ x: 0, y: 0 }}
         end={{ x: 0, y: 1 }}
@@ -15,7 +15,7 @@ const register = () => {
      <View style={styles.formContainer}>
         <View style={styles.logoContainer}>
             <AntDesign style={styles.logo} name="bank" />
-            <Text style={{color: '#FFF', fontSize:32, marginBottom: 20}}>Ecommerce IA</Text>
+            <Text style={{color: '#FFF', fontSize:32, marginBottom: 20}}>Fit Wear</Text>
         </View>
         <TextInput style={styles.input} placeholder='Nome Completo*'/>
         <TextInput style={styles.input} placeholder='E-mail'/>
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         borderWidth: 1,
-        borderColor: '#0EDFBD',
+        borderColor: '#2B2B2B',
     },
     input: {
         width: '100%',

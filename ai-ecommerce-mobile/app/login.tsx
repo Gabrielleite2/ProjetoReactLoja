@@ -59,7 +59,7 @@ const login = () => {
      <View style={styles.formContainer}>
         <View style={styles.logoContainer}>
             <AntDesign style={styles.logo} name="bank" />
-            <Text style={{color: '#FFF', fontSize:32, marginBottom: 20}}>Ecommerce IA</Text>
+            <Text style={{color: '#FFF', fontSize:32, marginBottom: 20}}>Fit Wear</Text>
         </View>
         <TextInput style={styles.input} placeholder='E-mail' onChangeText={(text) => {setEmail({value: text, dirty: true})}}/>
         {handleErrorEmail()}

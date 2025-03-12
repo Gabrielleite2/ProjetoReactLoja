@@ -38,16 +38,16 @@ export default function Home() {
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
           <Roupas img={require('../../assets/images/1.png')} cost="R$140,90" onClick={()=> navigation.navigate('Detail') }>
-            Nike Air Max Dia
+          Kit 4 Camisas Dry-fit Sandrini Masculina Academia
           </Roupas>
-          <Roupas img={require('../../assets/images/2.png')} cost="R$280,90" onClick={()=> navigation.navigate('Detail') }>
-            Nike Downshifter 10
+          <Roupas img={require('../../assets/images/2.png')} cost="R$180,90" onClick={()=> navigation.navigate('Detail') }>
+          Kit 3 Camisetas Dry Fit Feminina Academia Treino Corrida Proteção 
           </Roupas>
         </View>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-          <Roupas img={require('../../assets/images/3.png')} cost="R$560,90" onClick={()=> alert('CLICOU')}>
-            Nike Squidward Tentacles
+          <Roupas img={require('../../assets/images/3.png')} cost="R$60,90" onClick={()=> alert('CLICOU')}>
+           Kit 3 Shorts Masculino Básico
           </Roupas>
           <Roupas img={require('../../assets/images/4.png')} cost="R$220" onClick={()=> alert('CLICOU')}>
           Nike Epic React Flyknit 2
